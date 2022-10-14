@@ -296,6 +296,7 @@ header li:last-of-type a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 145px;
 }
 
 .team_article_2{
