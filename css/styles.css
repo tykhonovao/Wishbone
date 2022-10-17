@@ -50,12 +50,12 @@ a{
     font-size: 16px;
 }
 
-.color_white{
-    color: #FFFFFF;
-}
-
 .color_light_beige{
     color: #ECE7E4;
+}
+
+.color_white{
+    color: #FFFFFF;
 }
 
 h1{
