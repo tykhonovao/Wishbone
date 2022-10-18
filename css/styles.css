@@ -18,9 +18,11 @@
 .container_1{
     max-width: 1168px;
     margin: auto;
-    align-items: center;
 }
 
+.al_items{
+    align-items: center;
+}
 
 .d_flex{
     display: flex;
@@ -29,6 +31,27 @@
 
 .d_flex_1{
     display: flex;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    line-height: 24px;
+    color: #1B1A1A;
+}
+
+.a{
+    padding: 11px 20px;
+    border-radius: 14px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.color_light_beige{
+    color: #ECE7E4;
 }
 
 .color_white{
@@ -62,7 +85,6 @@ h2{
 }
 
 h3{
-    margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -73,8 +95,16 @@ h3{
     color: #645C55;
 }
 
+.h3_1{
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+    text-transform: none;
+}
+
 .h3_2{
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 p{
@@ -88,18 +118,38 @@ p{
     color: #403E3B;
 }
 
-a{
-    font-family: 'Poppins', sans-serif;
-    padding: 11px 20px;
-    border-radius: 14px;
-    margin-left: 5px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1B1A1A;
-    letter-spacing: 0.4px;
-    text-decoration: none;
+.p_1{
+    margin: 0 43px 10px;
+    font-size: 15px;
+    color: #645C55;
+}
+
+.p_2{
+    font-size: 17px;
+    line-height: 26px;
+    color: #645C55;
+    margin: 0;
+}
+
+.p_3{
+    width: 166px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #645C55;
+    margin-left: 30px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.p_4{
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-right: 9px;
+}
+
+.p_5{
+    margin-right: 20px;
+    font-size: 15px;
 }
 
 ul{
@@ -128,9 +178,6 @@ header li{
 }
 
 header a{
-    padding: 0;
-    border-radius: 0;
-    margin-left: 0;
     font-size: 15px;
 }
 
@@ -146,6 +193,7 @@ header li:last-of-type a{
 
 
 /*home*/
+
 
 
 
@@ -197,35 +245,6 @@ header li:last-of-type a{
     margin-bottom: 15px;
 }
 
-.h3_1{
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 26px;
-    color: #403E3B;
-    text-transform: none;
-}
-
-.p_1{
-    margin: 0 43px 10px;
-    font-size: 15px;
-    color: #645C55;
-}
-
-.p_2{
-    font-size: 17px;
-    line-height: 26px;
-    color: #645C55;
-    margin: 0;
-}
-
-.p_3{
-    font-size: 14px;
-    line-height: 20px;
-    color: #645C55;
-    margin-left: 30px;
-    margin-bottom: 0;
-    align-items: center;
-}
 
 
 
@@ -236,17 +255,11 @@ header li:last-of-type a{
 
 .clients_section{
     background-color: #403E3B;
-    padding: 100px 0;
-}
-
-.clients_p{
-    font-size: 15px;
-    margin-bottom: 0;
-    margin-right: 9px;
 }
 
 .clients_1{
     max-width: 460px;
+    margin-top: 35px;
 }
 
 .clients_2{
@@ -262,7 +275,7 @@ header li:last-of-type a{
     flex-direction: column;
     height: 210px;
     justify-content: space-between;
-    margin: 0 96px 0 184px;
+    margin: 0 184px 0 96px;
 }
 
 .img_1{
@@ -281,33 +294,42 @@ header li:last-of-type a{
 
 
 
-.team_p{
-    margin-right: 20px;
-    font-size: 15px;
-}
-
-.team_div_1{
+.team_div{
     max-width: 394px;
     height: 356px;
 }
 
-.team_article{
+.team_div_article{
     height: 356px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 145px;
+    margin-right: 115px;
+    margin-bottom: 20px;
 }
 
-.team_article_2{
-    margin-bottom: 137px;
+.team_div_article_1{
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 99px;
+    margin-bottom: 20px;
 }
 
 .team_article_1{
     display: flex;
     align-items: center;
+    margin: 8px 0;
 }
 
+.team_article_2{
+    margin-bottom: 136px;
+}
+
+span{
+    display: block;
+}
 
 
 
@@ -318,7 +340,6 @@ header li:last-of-type a{
 
 
 .get_in_touch_section{
-    padding: 100px 0;
     background-color: #CEC4BC;
 }
 
@@ -329,6 +350,7 @@ header li:last-of-type a{
 
 .get_in_touch_a{
     margin: 0;
+    display: flex;
 }
 
 
@@ -377,9 +399,3 @@ footer ul{
 footer li{
     margin-left: 20px;
 }
-
-
-
-
-
-
