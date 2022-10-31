@@ -1,0 +1,380 @@
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 22px 16px 22px 24px;
+    }
+    header li{
+        margin-left: 10px;
+    }
+    .home_section{
+        padding: 137px 16px 128px;
+    }
+
+    h1{
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .home_section p{
+        max-width: 344px;
+        margin-bottom: 41px;
+    }
+
+    .our_firm_section .d_flex{
+        justify-content: space-around;
+    }
+
+    .our_firm_section article img{
+        height: 56px;
+        width: 56px;
+    }
+
+    .reeding_house_section{
+        padding-right: 16px;
+    }
+
+    .owl-nav{
+        padding: 0 16px;
+    }
+
+    .marble_section{
+        padding-right: 16px;
+    }
+
+    .clients_section .d_flex{
+        justify-content: space-around;
+        padding: 0 22px 0 32px;
+    }
+
+    .clients_div_1{
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .clients_div_2{
+        margin-left: 40px;
+    }
+
+    .clients_div_3{
+        margin: 0 40px 0 32px;
+    }
+
+    .swirling_section{
+        padding-left: 16px;
+    }
+
+    .projects_section h2 {
+        padding-left: 32px;
+    }
+    .projects_section p {
+        padding-left: 32px;
+    }
+
+    .projects_section article{
+        max-width: 224px;
+        transition: none;
+        height: 100%;
+    }
+    .projects_section .d_flex_1{
+        padding: 0 32px;
+    }
+
+    .projects_section .describe{
+        bottom: 0;
+        transition: none;
+    }
+
+    .team_div_article{
+        margin-right: 32px;
+        height: 272px;
+    }
+
+    .team_div_article_1{
+        margin-right: 24px;
+        height: 272px;
+    }
+
+    .p_article{
+        width: 140px;
+        margin-left: 10px;
+    }
+
+    .team_section article img{
+        height: 56px;
+        width: 56px;
+    }
+
+    .team_article{
+        margin-bottom: 108px;
+    }
+
+    .team_div{
+        margin-left: 24px;
+    }
+
+    .team_section_p{
+        margin-right: 24px;
+    }
+
+    .get_in_touch_section{
+        padding: 100px 24px 117px;
+    }
+
+    .get_in_touch_h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    footer {
+        padding: 60px 24px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .d_flex {
+        display: inline-block;
+    }
+
+    .m_w{
+        max-width: 240px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .home_section{
+        padding: 60px 0 0;
+    }
+
+    .home_section .container_3{
+        padding: 0 24px 48px;
+    }
+
+    .home_bg{
+        position: static;
+        min-height: 480px;
+        width: 100%;
+    }
+
+    .home_section p{
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .our_firm_section .container_2{
+        padding: 0 24px;
+    }
+
+    .our_firm_section .p_article{
+        text-align: center;
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .our_firm_section article{
+        flex-direction: column;
+    }
+
+    .p_article{
+        text-align: start;
+    }
+
+    .our_firm_section{
+        padding: 60px 0;
+    }
+
+    .our_firm_section p{
+        margin-right: 0;
+    }
+
+    .our_firm_section .h2_1{
+        margin-bottom: 18px;
+    }
+
+    .reeding_house_section{
+        padding-right: 24px;
+    }
+
+    .owl-nav{
+        padding: 0 24px;
+    }
+
+    .process_section{
+        padding: 60px 0 70px;
+    }
+
+    .process_section h2{
+        padding: 0 24px;
+    }
+
+    .marble_section{
+        padding-right: 24px;
+    }
+
+    .clients_section .d_flex{
+        padding: 0;
+    }
+
+    .clients_section{
+        padding: 60px 0 70px;
+    }
+
+    .clients_div_1{
+        padding: 0 24px;
+        max-width: 100%;
+    }
+
+    .clients_div_2{
+        flex-direction: row;
+        padding: 0 48px;
+        margin: auto;
+        align-items: center;
+        height: 190px;
+    }
+
+    .clients_div_3{
+        flex-direction: row;
+        padding: 0 48px;
+        margin: auto;
+        align-items: center;
+        height: 85px;
+    }
+
+    .clients_img_1{
+        margin: 0;
+    }
+
+    .clients_img_2{
+        margin: 0;
+    }
+
+    .clients_section p{
+        margin-right: 0;
+    }
+
+    .swirling_section{
+        padding-left: 24px;
+    }
+
+    .projects_section{
+        padding: 60px 0 46px;
+    }
+
+    .projects_section h2{
+        padding: 0 24px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .projects_section p{
+        font-size: 17px;
+        line-height: 26px;
+        padding: 0 24px;
+    }
+
+    .projects_section .d_flex_1{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .projects_section article{
+        margin-bottom: 24px;
+    }
+
+    .projects_section .describe a{
+        margin: auto;
+    }
+
+    .team_section{
+        padding: 60px 0 70px;
+    }
+
+    .team_section .d_flex_1{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .team_section .team_div{
+        margin: 0;
+        padding: 0 24px;
+        max-width: 100%;
+    }
+
+    .team_section .team_div p{
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    .team_section .p_article{
+        text-align: center;
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .team_section article{
+        flex-direction: column;
+    }
+
+    .team_div_article{
+        margin: 48px 0 0;
+        height: 378px;
+        align-items: center;
+    }
+
+    .team_div_article_1{
+        margin: 24px 0 0;
+        height: 244px;
+        align-items: center;
+    }
+
+    .team_article{
+        margin-bottom: 0;
+    }
+
+    .get_in_touch_section{
+        padding: 60px 0 70px;
+    }
+
+    .get_in_touch_section .d_flex_1{
+        flex-direction: column;
+        padding: 0;
+        align-items: start;
+    }
+
+    .get_in_touch_section .container_1{
+        padding: 0 48px 0 24px;
+    }
+
+    .get_in_touch_h2{
+        margin-bottom: 24px;
+    }
+
+    .get_in_touch_a{
+        margin-left: 5px;
+    }
+
+    footer {
+        padding: 60px 0 60px 16px;
+        flex-direction: column;
+    }
+
+    .footer_div_ul{
+        justify-content: start;
+    }
+
+    footer p{
+        margin-bottom: 20px;
+    }
+
+    footer li:first-of-type{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+
+
+}
+
