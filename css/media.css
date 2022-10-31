@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
     header {
         padding: 22px 16px 22px 24px;
     }
@@ -45,17 +45,12 @@
         padding: 0 22px 0 32px;
     }
 
-    .clients_div_1{
-        max-width: 320px;
-        margin: auto;
-    }
-
     .clients_div_2{
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .clients_div_3{
-        margin: 0 40px 0 32px;
+        margin: 0 80px 0 32px;
     }
 
     .swirling_section{
@@ -71,10 +66,18 @@
     }
 
     .projects_section article{
-        max-width: 224px;
         transition: none;
         height: 100%;
     }
+
+    .projects_section article:first-of-type{
+        margin-right: 16px;
+    }
+
+    .projects_section article:last-of-type{
+        margin-left: 16px;
+    }
+
     .projects_section .d_flex_1{
         padding: 0 32px;
     }
