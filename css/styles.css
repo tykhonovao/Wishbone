@@ -469,6 +469,7 @@ header li:last-of-type a{
 
 .projects_section p{
     margin-bottom: 44px;
+    max-width: 586px;
 }
 
 .projects_section article{
@@ -575,6 +576,7 @@ header li:last-of-type a{
 
 .get_in_touch_h2{
     font-size: 40px;
+    max-width: 580px;
 }
 
 .get_in_touch_a{

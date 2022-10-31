@@ -67,6 +67,7 @@
     }
     .projects_section p {
         padding-left: 32px;
+        max-width: 615px;
     }
 
     .projects_section article{
@@ -122,6 +123,7 @@
     .get_in_touch_h2{
         font-size: 32px;
         line-height: 38px;
+        max-width: 500px;
     }
 
     footer {
@@ -163,16 +165,6 @@
 
     .our_firm_section .container_2{
         padding: 0 24px;
-    }
-
-    .our_firm_section .p_article{
-        text-align: center;
-        margin-top: 8px;
-        margin-left: 0;
-    }
-
-    .our_firm_section article{
-        flex-direction: column;
     }
 
     .p_article{
@@ -226,7 +218,7 @@
 
     .clients_div_2{
         flex-direction: row;
-        padding: 0 48px;
+        padding: 0 24px;
         margin: auto;
         align-items: center;
         height: 190px;
@@ -234,7 +226,7 @@
 
     .clients_div_3{
         flex-direction: row;
-        padding: 0 48px;
+        padding: 0 24px;
         margin: auto;
         align-items: center;
         height: 85px;
@@ -267,7 +259,7 @@
     }
 
     .projects_section p{
-        font-size: 17px;
+        font-size: 18px;
         line-height: 26px;
         padding: 0 24px;
     }
@@ -343,7 +335,7 @@
     }
 
     .get_in_touch_section .container_1{
-        padding: 0 48px 0 24px;
+        padding: 0 24px 0 24px;
     }
 
     .get_in_touch_h2{
@@ -355,7 +347,7 @@
     }
 
     footer {
-        padding: 60px 0 60px 16px;
+        padding: 60px 16px 60px 16px;
         flex-direction: column;
     }
 
