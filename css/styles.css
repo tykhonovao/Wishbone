@@ -194,6 +194,7 @@ header li:last-of-type a{
     opacity: .8;
     backdrop-filter: blur(8px);
     position: fixed;
+    left: 136px;
 }
 
 .ui-dialog .ui-dialog-titlebar{
