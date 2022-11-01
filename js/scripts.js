@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
     autoplay: false,
     autoplayTimeout:2000,
     responsive:{
-        375:{
+        320:{
             items:1
         },
         428:{
@@ -39,3 +39,4 @@ $( function() {
         $( "#dialog" ).dialog( "open" );
     });
 } );
+
