@@ -1,8 +1,91 @@
-@media only screen and (max-width: 884px) {
+@media only screen and (max-width: 1200px) {
+    .home_section{
+        padding: 137px 16px 128px;
+    }
 
+    h1{
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .home_section p{
+        max-width: 448px;
+        margin-bottom: 41px;
+    }
+
+    .owl-nav{
+        padding: 0 16px;
+    }
+
+    .clients_section .d_flex{
+        justify-content: space-around;
+        padding: 0 24px;
+    }
+
+    .reeding_house_section{
+        padding-right: 16px;
+    }
+
+    .marble_section{
+        padding-right: 16px;
+    }
+
+    .swirling_section{
+        padding-left: 16px;
+    }
+
+    .projects_section h2 {
+        padding-left: 32px;
+    }
+    .projects_section p {
+        padding-left: 32px;
+        max-width: 615px;
+    }
+
+    .projects_section .d_flex_1{
+        padding: 0 32px;
+    }
+
+    .projects_section .describe{
+        bottom: 0;
+        transition: none;
+    }
+
+    .projects_section article{
+        height: 100%;
+    }
+
+    .projects_section article:first-of-type{
+        margin-right: 16px;
+    }
+
+    .projects_section article:last-of-type{
+        margin-left: 16px;
+    }
+
+    .p_article{
+        width: 140px;
+        margin-left: 10px;
+    }
+
+    .team_section .team_div{
+        padding: 0 32px;
+    }
+
+    .get_in_touch_section{
+        padding: 100px 24px 117px;
+    }
+
+    .get_in_touch_h2{
+        max-width: 600px;
+    }
+
+    footer {
+        padding: 60px 24px;
+    }
 }
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 884px) {
     header {
         padding: 22px 16px 22px 24px;
     }
@@ -32,18 +115,6 @@
         width: 56px;
     }
 
-    .reeding_house_section{
-        padding-right: 16px;
-    }
-
-    .owl-nav{
-        padding: 0 16px;
-    }
-
-    .marble_section{
-        padding-right: 16px;
-    }
-
     .clients_section .d_flex{
         justify-content: space-around;
         padding: 0 22px 0 32px;
@@ -57,38 +128,13 @@
         margin: 0 80px 0 32px;
     }
 
-    .swirling_section{
-        padding-left: 16px;
+    .team_section article img{
+        height: 56px;
+        width: 56px;
     }
 
-    .projects_section h2 {
-        padding-left: 32px;
-    }
-    .projects_section p {
-        padding-left: 32px;
-        max-width: 615px;
-    }
-
-    .projects_section article{
-        transition: none;
-        height: 100%;
-    }
-
-    .projects_section article:first-of-type{
-        margin-right: 16px;
-    }
-
-    .projects_section article:last-of-type{
-        margin-left: 16px;
-    }
-
-    .projects_section .d_flex_1{
-        padding: 0 32px;
-    }
-
-    .projects_section .describe{
-        bottom: 0;
-        transition: none;
+    .team_article{
+        margin-bottom: 108px;
     }
 
     .team_div_article{
@@ -99,24 +145,6 @@
     .team_div_article_1{
         margin-right: 24px;
         height: 272px;
-    }
-
-    .p_article{
-        width: 140px;
-        margin-left: 10px;
-    }
-
-    .team_section article img{
-        height: 56px;
-        width: 56px;
-    }
-
-    .team_article{
-        margin-bottom: 108px;
-    }
-
-    .team_div{
-        margin-left: 24px;
     }
 
     .team_section_p{
