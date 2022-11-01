@@ -9,7 +9,7 @@
     }
 
     .home_section p{
-        max-width: 448px;
+        max-width: 424px;
         margin-bottom: 41px;
     }
 
@@ -92,18 +92,9 @@
     header li{
         margin-left: 10px;
     }
-    .home_section{
-        padding: 137px 16px 128px;
-    }
-
-    h1{
-        font-size: 42px;
-        line-height: 46px;
-    }
 
     .home_section p{
         max-width: 344px;
-        margin-bottom: 41px;
     }
 
     .our_firm_section .d_flex{
@@ -113,11 +104,6 @@
     .our_firm_section article img{
         height: 56px;
         width: 56px;
-    }
-
-    .clients_section .d_flex{
-        justify-content: space-around;
-        padding: 0 22px 0 32px;
     }
 
     .clients_div_2{
@@ -151,152 +137,32 @@
         margin-right: 24px;
     }
 
-    .get_in_touch_section{
-        padding: 100px 24px 117px;
-    }
-
     .get_in_touch_h2{
         font-size: 32px;
         line-height: 38px;
         max-width: 500px;
     }
-
-    footer {
-        padding: 60px 24px;
-    }
 }
 
-@media only screen and (max-width: 428px) {
-    .d_flex {
-        display: inline-block;
-    }
-
-    .m_w{
-        max-width: 240px;
-    }
-
+@media only screen and (max-width: 720px){
     header {
         display: none;
     }
 
-    .home_section{
-        padding: 60px 0 0;
-    }
-
-    .home_section .container_3{
-        padding: 0 24px 48px;
-    }
-
-    .home_bg{
-        position: static;
-        min-height: 480px;
-        width: 100%;
-    }
-
     .home_section p{
-        margin-right: 0;
-        max-width: 100%;
+        max-width: 280px;
     }
 
-    .our_firm_section .container_2{
-        padding: 0 24px;
-    }
-
-    .p_article{
-        text-align: start;
-    }
-
-    .our_firm_section{
-        padding: 60px 0;
-    }
-
-    .our_firm_section p{
-        margin-right: 0;
-    }
-
-    .our_firm_section .h2_1{
-        margin-bottom: 18px;
-    }
-
-    .reeding_house_section{
-        padding-right: 24px;
-    }
-
-    .owl-nav{
-        padding: 0 24px;
-    }
-
-    .process_section{
-        padding: 60px 0 70px;
-    }
-
-    .process_section h2{
-        padding: 0 24px;
-    }
-
-    .marble_section{
-        padding-right: 24px;
-    }
-
-    .clients_section .d_flex{
-        padding: 0;
-    }
-
-    .clients_section{
-        padding: 60px 0 70px;
-    }
-
-    .clients_div_1{
-        padding: 0 24px;
-        max-width: 100%;
+    .our_firm_section_p{
+        max-width: 320px;
     }
 
     .clients_div_2{
-        flex-direction: row;
-        padding: 0 24px;
-        margin: auto;
-        align-items: center;
-        height: 190px;
+        margin-left: 32px;
     }
 
     .clients_div_3{
-        flex-direction: row;
-        padding: 0 24px;
-        margin: auto;
-        align-items: center;
-        height: 85px;
-    }
-
-    .clients_img_1{
-        margin: 0;
-    }
-
-    .clients_img_2{
-        margin: 0;
-    }
-
-    .clients_section p{
-        margin-right: 0;
-    }
-
-    .swirling_section{
-        padding-left: 24px;
-    }
-
-    .projects_section{
-        padding: 60px 0 46px;
-    }
-
-    .projects_section h2{
-        padding: 0 24px;
-        font-size: 32px;
-        line-height: 38px;
-    }
-
-    .projects_section p{
-        font-size: 18px;
-        line-height: 26px;
-        padding: 0 24px;
+        margin: 0 32px 0 32px;
     }
 
     .projects_section .d_flex_1{
@@ -309,13 +175,10 @@
         margin: 0 16px 24px 16px;
     }
 
-    .team_section{
-        padding: 60px 0 70px;
-    }
-
-    .team_section .d_flex_1{
+    .team_section .d_flex{
         flex-direction: column;
         padding: 0;
+        display: inline-block;
     }
 
     .team_section .team_div{
@@ -355,6 +218,146 @@
         margin-bottom: 0;
     }
 
+    .get_in_touch_h2{
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .home_section{
+        padding: 60px 0 0;
+    }
+
+    .home_section .container_3{
+        padding: 0 24px 48px;
+    }
+
+    .home_bg{
+        position: static;
+        min-height: 480px;
+        width: 100%;
+    }
+
+    .home_section p{
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .clients_section .d_flex{
+        padding: 0;
+        display: inline-block;
+    }
+
+    .clients_section{
+        padding: 60px 0 70px;
+    }
+
+    .clients_div_1{
+        padding: 0 24px;
+        max-width: 100%;
+    }
+
+    .clients_div_2{
+        flex-direction: row;
+        padding: 0 96px;
+        margin: auto;
+        align-items: center;
+        height: 190px;
+    }
+
+    .clients_div_3{
+        flex-direction: row;
+        padding: 0 96px;
+        margin: auto;
+        align-items: center;
+        height: 85px;
+    }
+
+    .clients_img_1{
+        margin: 0;
+    }
+
+    .clients_img_2{
+        margin: 0;
+    }
+
+    .clients_section p{
+        margin-right: 0;
+    }
+
+    .get_in_touch_h2{
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .d_flex {
+        display: inline-block;
+    }
+
+    .m_w{
+        max-width: 240px;
+    }
+
+    .our_firm_section .container_2{
+        padding: 0 24px;
+    }
+
+    .p_article{
+        text-align: start;
+    }
+
+    .our_firm_section{
+        padding: 60px 0;
+    }
+
+    .our_firm_section p{
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .our_firm_section .h2_1{
+        margin-bottom: 18px;
+    }
+
+    .process_section{
+        padding: 60px 0 70px;
+    }
+
+    .process_section h2{
+        padding: 0 24px;
+    }
+
+    .projects_section{
+        padding: 60px 0 46px;
+    }
+
+    .projects_section h2{
+        padding: 0 24px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .projects_section p{
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 24px;
+    }
+
+    .clients_div_2{
+        padding: 0 24px;
+        height: 190px;
+    }
+
+    .clients_div_3{
+        padding: 0 24px;
+        height: 85px;
+    }
+
+    .team_section{
+        padding: 60px 0 70px;
+    }
+
     .get_in_touch_section{
         padding: 60px 0 70px;
     }
@@ -378,7 +381,6 @@
     }
 
     footer {
-        padding: 60px 16px 60px 16px;
         flex-direction: column;
     }
 
