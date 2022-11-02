@@ -188,12 +188,13 @@ header li:last-of-type a{
 }
 
 .ui-widget.ui-widget-content{
-    background-color: rgb(27, 26, 26, 0.5);
+    background-color: rgb(27, 26, 26, 0.8);
     border-radius: 14px;
     padding: 16px 20px;
     opacity: .8;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(20px);
     position: fixed;
+    /*left: 65% !important;*/
 }
 
 .ui-dialog .ui-dialog-titlebar{

@@ -144,6 +144,12 @@
     }
 }
 
+@media only screen and (max-width: 740px){
+    header li{
+        margin-left: 8px;
+    }
+}
+
 @media only screen and (max-width: 720px){
     header {
         display: none;
